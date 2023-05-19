@@ -1,7 +1,7 @@
 {
-    "name": "𝗦𝗛𝗢𝗞𝗜𝗡✘𝗕𝗔𝗕𝗬«🇮🇳»",
+    "name": "ᴀɴᴏɴ ダ ᴍᴜsɪᴄ",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://te.legra.ph/file/584dc6bae77e012a7ac55.jpg",
+    "logo": "https://telegra.ph/file/56d1760224589ee370186.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -34,7 +34,7 @@
       },
       "MUSIC_BOT_NAME": {
         "description": "A name for your Music Bot. You can use special characters bot ko jhaat farak ni padega",
-        "value": "𝗦𝗛𝗢𝗞𝗜𝗡✘𝗕𝗔𝗕𝗬«🇮🇳»",
+        "value": "ᴀɴᴏɴ ダ ᴍᴜsɪᴄ",
         "required": true
       },
       "OWNER_ID": {
