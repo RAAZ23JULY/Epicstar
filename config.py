@@ -14,19 +14,19 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝗦𝗛𝗢𝗞𝗜𝗡✘𝗕𝗔𝗕𝗬«🇮🇳»")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝐇𝐚𝐫𝐬𝐡x𝐌𝐔𝐒𝐈𝐂«🇮🇳»")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "6001706215").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "6387600212").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/SHOKINx2/SHOKINX3")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/SHOKINx2/harshit")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SHOKIN_LOG")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/SHOKIN_LOG")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/logger099292")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/logger099292")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -76,11 +76,11 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/0f1c9db2c84b27c042c03.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/9b5b8ba1ec7bce3993298.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/813069a833703a1167d35.jpg",
+    "https://graph.org/file/fac04a71abddea68173b6.jpg",
 )
 
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
@@ -130,9 +130,9 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://te.legra.ph/file/813069a833703a1167d35.jpg"
+            PING_IMG_URL = "https://graph.org/file/fac04a71abddea68173b6.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://te.legra.ph/file/0f1c9db2c84b27c042c03.jpg"
+            START_IMG_URL = "https://graph.org/file/9b5b8ba1ec7bce3993298.jpg"
